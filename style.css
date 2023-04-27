@@ -24,7 +24,13 @@ a{
     background: rgba(3, 3, 3, 0.92);
     background-image: url(./Group\ 2647.png);
     background-repeat: no-repeat;
+    height: 790px;
+    position: relative;
    
+}
+.right-img-card{
+  position: absolute;
+  right: 0;
 }
 .edentulous-content{
   display: flex;
@@ -51,7 +57,7 @@ opacity: 0.8;
 display: flex;
 flex-direction: column;
 justify-content: center;
-height: 100%;
+height: 800px;
    
 
 }
@@ -617,18 +623,15 @@ color: #FFFFFF;
   
   }
   .text p{
-      font-weight: 500;
+    
   font-size: 18px;
   line-height: 27px;
   
-  margin-top: 20px;
-  opacity: 0.8;
+  
   }
   .text-content{
     
-     width:unset;
-  margin-left: 16px;
-     padding: 50px 0;
+    height: 530px;
   }
   br{
     display: none;
@@ -676,9 +679,18 @@ color: #FFFFFF;
   
   }
   
-  
+  .right-img-card {
+    position: absolute;
+    top: 67%;
+    
+}
  
  /* section-2 */
+
+
+ .removable-content{
+  margin-top: 280px;
+ }
  .text-head-content{
   padding-top:30px ;
 }
@@ -872,7 +884,7 @@ padding: 60px 0;
     /* section 1 */
     .solutions-container{
      background-size: 50%;
-     
+     height: 100%;
   }
   
   br{
@@ -894,7 +906,7 @@ padding: 60px 0;
   opacity: 0.8;
   }
   .text-content{
-     
+     height: 600px;
    
   }
   .button{
@@ -927,7 +939,7 @@ padding: 60px 0;
   
   .right-image img{
   width: 100%;
-  height: 100%;
+  height: 380px;
   }
   
   .card-text{
@@ -1114,6 +1126,12 @@ padding: 60px 0;
  
 }
 }
+@media screen and (min-width:820px) and (max-width:820px){
+  .card-text {
+    padding: 22px 0 20px 30px;
+}
+
+}
 @media screen and (min-width: 1024px) and (max-width: 1024px){
 .rectangle-imgs img {
     width: 6%;
@@ -1121,9 +1139,20 @@ padding: 60px 0;
 .button-2 {
   padding: 12px 57px;
 }
+.solutions-container{
+  height: 100%;
+  background-size: 30%;
 }
-
+}
+@media screen and (min-width: 1280px) and (max-width: 1280px){
+  .solutions-container{
+    height: 725px;
+  }
+}
 @media screen and  (max-width: 280px){
+  .removable-content{
+    margin-top: 200px;
+  }
   .mid-img {
     width: 100%;
   
